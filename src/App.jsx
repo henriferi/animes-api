@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
 
-// Styled Components
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
@@ -63,7 +62,6 @@ const AnimeSynopsis = styled.p`
   font-size: 0.9rem;
 `;
 
-// Main Component
 const AnimeList = () => {
   const [animes, setAnimes] = useState([]);
   const [searchTerm, setSearchTerm] = useState(''); 
